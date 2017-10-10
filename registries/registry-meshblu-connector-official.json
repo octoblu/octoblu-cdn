@@ -1,0 +1,247 @@
+{
+  "name": "Octoblu Official Connectors",
+  "documentation": "https://meshblu-connectors.readme.io",
+  "version": "5.0.0",
+  "items": [
+    {
+      "_id": "octoblu-meshblu-connector-chromecast",
+      "name": "Chromecast",
+      "description": "Chromecast is a thumb-sized media streaming device that plugs into the HDMI port on your TV. Cast your favorite entertainment and apps right to the big screen.",
+      "type": "device:chromecast",
+      "tags": ["Home Automation"],
+      "githubSlug": "octoblu/meshblu-connector-chromecast",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-chromecast",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-wemo",
+      "name": "Wemo Switch (deprecated)",
+      "description": "Home automation made easy. Wemo is a series of Iot products from Belkin International, Inc. that allows users to control your home electronics from anywhere.",
+      "type": "device:wemo",
+      "tags": ["Home Automation"],
+      "githubSlug": "octoblu/meshblu-connector-wemo",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-wemo",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-wemo-switch",
+      "name": "Wemo Switch",
+      "description": "Home automation made easy. Wemo is a series of Iot products from Belkin International, Inc. that allows users to control your home electronics from anywhere.",
+      "type": "device:wemo-switch",
+      "tags": ["Home Automation"],
+      "githubSlug": "octoblu/meshblu-connector-wemo-switch",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-wemo-switch",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-blink1",
+      "name": "Blink1",
+      "description": "The world's best indicator light, designed to give you glanceable notice of anything on your computer or the internet. Blink(1) makes it easy to connect data sources in the cloud or on your computer to a full-color RGB LED so you can know what’s happening without checking any windows, going to any websites or typing any command.",
+      "type": "device:blink1",
+      "tags": ["Utility"],
+      "githubSlug": "octoblu/meshblu-connector-blink1",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-blink1",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-hue",
+      "name": "Phillips Hue (deprecated)",
+      "description": "Philips hue combines brilliant LED light with intuitive technology, then puts it in the palm of your hand. Experiment with shades of white, from invigorating blue/white to cozy yellow/white.",
+      "type": "device:hue",
+      "tags": ["Home Automation"],
+      "githubSlug": "octoblu/meshblu-connector-hue",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-hue",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-hue-light",
+      "name": "Phillips Hue Light",
+      "description": "Philips hue combines brilliant LED light with intuitive technology, then puts it in the palm of your hand. Experiment with shades of white, from invigorating blue/white to cozy yellow/white.",
+      "type": "device:hue-light",
+      "tags": ["Home Automation"],
+      "githubSlug": "octoblu/meshblu-connector-hue-light",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-hue-light",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-hue-group",
+      "name": "Phillips Hue Group",
+      "description": "Philips hue combines brilliant LED light with intuitive technology, then puts it in the palm of your hand. Experiment with shades of white, from invigorating blue/white to cozy yellow/white.",
+      "type": "device:hue-group",
+      "tags": ["Home Automation"],
+      "githubSlug": "octoblu/meshblu-connector-hue-group",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-hue-group",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-shell",
+      "name": "Shell",
+      "description": "A Connector for interfacing with command line. Works with variety of different languages, like bash, fish and powershell.",
+      "type": "device:shell",
+      "tags": ["Utility"],
+      "githubSlug": "octoblu/meshblu-connector-shell",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-shell",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-bean",
+      "name": "Lightblue Bean",
+      "description": "The LightBlue Bean is a low energy Bluetooth Arduino microcontroller. Using Bluetooth 4.0, it is programmed wirelessly, runs on a coin cell battery, and is perfect for any project. Interact with proximity, acceleromitor, and temperature data.",
+      "type": "device:bean",
+      "tags": ["Bluetooth"],
+      "githubSlug": "octoblu/meshblu-connector-bean",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-bean",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-beacon-receiver",
+      "name": "Beacon Receiver",
+      "description": "Detect and receive location changes for nearby beacons.",
+      "type": "device:beacon-receiver",
+      "tags": ["Bluetooth"],
+      "githubSlug": "octoblu/meshblu-connector-beacon-receiver",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-beacon-receiver",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-beacon-transmitter",
+      "name": "Beacon Transmitter",
+      "description": "Broadcast and transmit your computer as a beacon",
+      "type": "device:beacon-transmitter",
+      "tags": [ "Bluetooth" ],
+      "githubSlug": "octoblu/meshblu-connector-beacon-transmitter",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-beacon-transmitter",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-http",
+      "name": "HTTP Connector",
+      "description": "A Connector for making HTTP requests.",
+      "type": "device:http-connector",
+      "tags": ["Utility"],
+      "githubSlug": "octoblu/meshblu-connector-http",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-http",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-myo",
+      "name": "Myo",
+      "description": "Myo is a gesture control armband that reads your muscle activity so you can control your favorite presentation software, desktop, music app, and anything else with gestures and motion. It's the secret up your sleeve.",
+      "type": "device:myo",
+      "tags": ["Maker"],
+      "githubSlug": "octoblu/meshblu-connector-myo",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-myo",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-citrix-receiver",
+      "name": "Citrix Receiver",
+      "description": "Citrix Receiver is the easy-to-install client software that provides access to your XenDesktop and XenApp installations. You can access applications, desktops and data easily and securely from any device, including smartphones, tablets, PCs and Macs. Open Receiver applications remotely through Octoblu.",
+      "type": "device:citrix-receiver",
+      "tags": ["Citrix"],
+      "githubSlug": "octoblu/meshblu-connector-citrix-receiver",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-citrix-receiver",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-lifx",
+      "name": "Lifx",
+      "description": "LIFX lets you get more out of light with their multi-color LED smart lightbulb. Interact directly with the hardware by connecting LIFX to Octoblu and changing the name property to match the one in the LIFX app.",
+      "type": "device:lifx",
+      "tags": ["Home Automation"],
+      "githubSlug": "octoblu/meshblu-connector-lifx",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-lifx",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-ble-heartrate",
+      "name": "BLE Heartrate",
+      "description": "Connector standard BLE Capable heartrate monitors.",
+      "type": "device:ble-heartrate",
+      "tags": ["Bluetooth"],
+      "githubSlug": "octoblu/meshblu-connector-ble-heartrate",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-ble-heartrate",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-mindwave",
+      "name": "Neurosky Mindwave",
+      "description": "Mindwave safely measures brainwave signals and monitors the attention levels of students as they interact with math, memory and pattern recognition applications. The Neurosky Mindwave provides streaming brain wave data on concentration, attention and meditation.",
+      "type": "device:mindwave",
+      "tags": ["Maker"],
+      "githubSlug": "octoblu/meshblu-connector-mindwave",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-mindwave",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-sonos",
+      "name": "Sonos",
+      "description": "Sonos is a smart system of HiFi wireless speakers and audio components. It unites your digital music collection in one app that you control from any device. Use Octoblu to trigger tracks to play on your local Sonos speakers.",
+      "type": "device:sonos",
+      "tags": ["Music"],
+      "githubSlug": "octoblu/meshblu-connector-sonos",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-sonos",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-hue-button",
+      "name": "Phillips Hue Button",
+      "description": "The world's first wireless smart switch. Use the Hue Button to change your Hue Lights, trigger your flows, or control other Things in Octoblu.",
+      "type": "device:hue-button",
+      "tags": ["Home Automation"],
+      "githubSlug": "octoblu/meshblu-connector-hue-button",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-hue-button",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-netscaler",
+      "name": "Netscaler",
+      "description": "A Connector for interfacing with Netscaler on local network",
+      "type": "device:netscaler",
+      "tags": ["Citrix"],
+      "githubSlug": "octoblu/meshblu-connector-netscaler",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-netscaler",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-xen-director",
+      "name": "Xen Director",
+      "description": "A Connector for interfacing with Xen Director on a local network",
+      "type": "device:xen-director",
+      "tags": ["Citrix"],
+      "githubSlug": "octoblu/meshblu-connector-xen-director",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-xen-director",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-say-hello",
+      "name": "Say Hello (For Testing)",
+      "description": "An example of a Connector. It will respond to grettings.",
+      "type": "device:say-hello",
+      "tags": ["Example"],
+      "githubSlug": "octoblu/meshblu-connector-say-hello",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-say-hello",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-skype",
+      "name": "Skype For Business",
+      "description": "Start and Stop Skype For Business (Lync) Meetings!",
+      "type": "device:skype",
+      "tags": ["Enterprise"],
+      "githubSlug": "octoblu/meshblu-connector-skype",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-skype",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    },
+    {
+      "_id": "octoblu-meshblu-connector-hue-motion",
+      "name": "Philips Hue Motion Sensor",
+      "description": "Detect presence and movement!",
+      "type": "device:hue-motion",
+      "tags": ["Home Automation"],
+      "githubSlug": "octoblu/meshblu-connector-hue-motion",
+      "createUri": "https://connector-factory.octoblu.com/connectors/create/octoblu/meshblu-connector-hue-motion",
+      "configureUri": "https://connector-factory.octoblu.com/connectors/configure/:uuid"
+    }
+  ]
+}

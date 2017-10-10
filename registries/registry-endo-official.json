@@ -1,0 +1,129 @@
+{
+  "name": "Octoblu Official Endos",
+  "documentation": "https://meshblu-connectors.readme.io",
+  "version": "1.9.2",
+  "items": [
+    {
+      "_id": "octoblu-endo-github",
+      "name": "Github (beta)",
+      "description": "GitHub is a web-based Git repository hosting service, that is the best place to share code with friends, co-workers, classmates, and complete strangers. Also offers distributed revision control and source code management functionalities to fork projects, send pull requests, and monitor development.",
+      "type": "endo:github",
+      "tags": ["Developer Tools"],
+      "githubSlug": "octoblu/endo-github",
+      "createUri": "https://endo-github.octoblu.com",
+      "configureUri": "https://app.octoblu.com/device/:uuid",
+      "iconUri": "https://icons.octoblu.com/device/github.svg"
+    },
+    {
+      "_id": "octoblu-endo-meshblu",
+      "name": "Meshblu (beta)",
+      "description": "Meshblu is the core of the Octoblu infrastructure.",
+      "type": "endo:meshblu",
+      "tags": ["Developer Tools"],
+      "githubSlug": "octoblu/endo-meshblu",
+      "createUri": "https://endo-meshblu.octoblu.com",
+      "configureUri": "https://app.octoblu.com/device/:uuid",
+      "iconUri": "https://icons.octoblu.com/channel/meshblu-http.svg"
+    },
+    {
+      "_id": "octoblu-endo-sendgrid",
+      "name": "SendGrid (beta)",
+      "description": "Send email using the SendGrid API!",
+      "type": "endo:sendgrid",
+      "tags": ["Email"],
+      "githubSlug": "octoblu/endo-sendgrid",
+      "createUri": "https://endo-sendgrid.octoblu.com",
+      "configureUri": "https://app.octoblu.com/device/:uuid",
+      "iconUri": "https://icons.octoblu.com/device/sendgrid.svg"
+    },
+    {
+      "_id": "octoblu-endo-twitter",
+      "name": "Twitter (beta)",
+      "description": "An online social networking service that enables users to send and read short 140-character messages called \"tweets\". Search and post tweets, update status data, user information, and much more.",
+      "type": "endo:twitter",
+      "tags": ["Social"],
+      "githubSlug": "octoblu/endo-twitter",
+      "createUri": "https://endo-twitter.octoblu.com",
+      "configureUri": "https://app.octoblu.com/device/:uuid",
+      "iconUri": "https://icons.octoblu.com/device/twitter.svg"
+    },
+    {
+      "_id": "octoblu-slurry-exchange",
+      "name": "Exchange Streaming (beta)",
+      "description": "Stream exchange calendar notifications.",
+      "type": "slurry:exchange",
+      "tags": ["Office"],
+      "githubSlug": "octoblu/slurry-exchange",
+      "createUri": "https://slurry-exchange.octoblu.com",
+      "configureUri": "https://app.octoblu.com/device/:uuid",
+      "iconUri": "https://cdn.octoblu.com/icons/slurries/exchange.svg"
+    },
+    {
+      "_id": "octoblu-slurry-salesforce",
+      "name": "Salesforce Streaming (beta)",
+      "description": "",
+      "type": "slurry:salesforce",
+      "tags": ["Office"],
+      "githubSlug": "octoblu/slurry-salesforce",
+      "createUri": "https://slurry-salesforce.octoblu.com",
+      "configureUri": "https://app.octoblu.com/device/:uuid",
+      "iconUri": "https://icons.octoblu.com/channel/salesforce.svg"
+    },
+    {
+      "_id": "octoblu-slurry-slack",
+      "name": "Slack Streaming (beta)",
+      "description": "",
+      "type": "slurry:slack",
+      "tags": ["Social"],
+      "githubSlug": "octoblu/slurry-slack",
+      "createUri": "https://slurry-slack.octoblu.com",
+      "configureUri": "https://app.octoblu.com/device/:uuid",
+      "iconUri": "https://icons.octoblu.com/channel/slack.svg"
+    },
+    {
+      "_id": "octoblu-slurry-slack-bot",
+      "name": "Slack Streaming Bot (beta)",
+      "description": "",
+      "type": "slurry:slack-bot",
+      "tags": ["Social"],
+      "githubSlug": "octoblu/slurry-slack-bot",
+      "createUri": "https://slurry-slack-bot.octoblu.com",
+      "configureUri": "https://app.octoblu.com/device/:uuid",
+      "iconUri": "https://icons.octoblu.com/channel/slack.svg"
+    },
+    {
+      "_id": "octoblu-slurry-twitter",
+      "name": "Twitter Streaming (beta)",
+      "description": "An online social networking service that enables users to send and read short 140-character messages called \"tweets\". Search and post tweets, update status data, user information, and much more.",
+      "type": "slurry:twitter",
+      "tags": ["Social"],
+      "githubSlug": "octoblu/slurry-twitter",
+      "createUri": "https://slurry-twitter.octoblu.com",
+      "configureUri": "https://app.octoblu.com/device/:uuid",
+      "iconUri": "https://icons.octoblu.com/device/twitter.svg"
+    },
+    {
+      "_id": "octoblu-endo-exchange",
+      "name": "Exchange (beta)",
+      "description": "",
+      "description": "Stream exchange calendar notifications.",
+      "type": "endo:exchange",
+      "tags": ["Office"],
+      "githubSlug": "octoblu/endo-exchange",
+      "createUri": "https://endo-exchange.octoblu.com",
+      "configureUri": "https://app.octoblu.com/device/:uuid",
+      "iconUri": "https://cdn.octoblu.com/icons/slurries/exchange.svg"
+    },
+    {
+      "_id": "octoblu-endo-podio",
+      "name": "Podio (beta)",
+      "description": "Use the Podio API to automate your workspace.",
+      "type": "endo:podio",
+      "tags": ["Productivity"],
+      "githubSlug": "octoblu/endo-podio",
+      "createUri": "https://endo-podio.octoblu.com",
+      "configureUri": "https://app.octoblu.com/device/:uuid",
+      "iconUri": "https://s3-us-west-2.amazonaws.com/octoblu-icons/channel/podio.svg"
+    }
+  ]
+}

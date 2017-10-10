@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>gateblu-shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0E5491" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-3" cx="41.92" cy="41.798" r="9.62"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="gateblu" sketch:type="MSLayerGroup" transform="translate(2.000000, 2.000000)">
+            <g id="Group">
+                <g id="Oval">
+                    <use stroke="#2F2F31" stroke-width="4" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+                    <use stroke="none" fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                    <use stroke="none" fill="#0E5491" xlink:href="#path-3"></use>
+                </g>
+                <circle id="Oval" stroke="#2F2F31" stroke-width="4" fill="#0E5491" sketch:type="MSShapeGroup" cx="42" cy="7.618" r="6.794"></circle>
+                <circle id="Oval" stroke="#2F2F31" stroke-width="4" fill="#0E5491" sketch:type="MSShapeGroup" cx="42" cy="76.382" r="6.794"></circle>
+                <circle id="Oval" stroke="#2F2F31" stroke-width="4" fill="#0E5491" sketch:type="MSShapeGroup" cx="7.618" cy="41.798" r="6.794"></circle>
+                <circle id="Oval" stroke="#2F2F31" stroke-width="4" fill="#0E5491" sketch:type="MSShapeGroup" cx="76.382" cy="41.798" r="6.794"></circle>
+                <circle id="Oval" stroke="#2F2F31" stroke-width="4" fill="#6AB840" sketch:type="MSShapeGroup" cx="17.689" cy="17.487" r="6.794"></circle>
+                <circle id="Oval" stroke="#2F2F31" stroke-width="4" fill="#6AB840" sketch:type="MSShapeGroup" cx="66.311" cy="66.11" r="6.794"></circle>
+                <circle id="Oval" stroke="#2F2F31" stroke-width="4" fill="#6AB840" sketch:type="MSShapeGroup" cx="17.689" cy="66.11" r="6.794"></circle>
+                <circle id="Oval" stroke="#2F2F31" stroke-width="4" fill="#6AB840" sketch:type="MSShapeGroup" cx="66.311" cy="17.487" r="6.794"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
